@@ -1,0 +1,206 @@
+@font-face {
+   font-family: "Roboto";
+   src: url("Roboto-Regular.ttf");
+}
+body{
+   margin: auto;
+   width: 1440px;
+}
+.grid-item {
+/* position: relative;
+
+height: 5887px;
+background-color: #ffffff; */
+
+
+
+    display: inline-grid;
+    gap: 20px 35px;
+    grid-template-columns: repeat(6, 1fr);
+    grid-auto-flow: row;
+    background-color: #ddd;
+    
+
+}
+[class^='grid-item'] {
+   outline: 1px #f90 dashed;
+   display: inline-grid;
+   
+  
+}
+
+
+.grid-item-logo {
+   grid-column: 1/span 3;
+}
+.logo {
+   width: 70px;
+   height: 75px;
+}
+.grid-item-menu {
+   grid-column: 4/span 2; 
+}
+
+/* .header {
+   display: grid;
+   gap: 30px;
+   grid-template-columns: repeat(3, 1fr);
+   grid-auto-rows: 100px;
+   grid-auto-flow: row dense;
+   background-color: #999999;
+  font-size: 18px;
+
+} 
+
+
+.grid-item-hero {
+   grid-column: 1/span 6;
+   
+}*/
+
+ 
+.grid-item-contact {
+   grid-column: 6;
+   text-align: right;
+}  
+
+
+
+.grid-item-heading {
+   grid-row: 2;
+    grid-column: 1/span 4; 
+    
+   
+}
+.grid-item-link-hero {
+   grid-row: 2;
+    grid-column: 5/span 2;
+    align-items: end;
+    text-align: right;
+    
+}
+.grid-item-text-hero {
+   grid-row: 3;
+    grid-column: 1/span 2;
+}
+.grid-item-hero-img1 {
+   grid-row: 3/span 2;
+    grid-column: 4/span 3;
+   align-items: center;
+   
+   
+   
+}
+.grid-item-hero-img2 {
+   grid-row: 4;
+    grid-column: 1/span 2;
+    align-items: end;
+}
+.grid-item-about {
+   grid-row: 5;
+   grid-column: 1/span 6; 
+}
+.grid-item-steps {
+   grid-row: 6;
+   grid-column: 1/span 6; 
+}
+
+.grid-item-projects {
+   grid-row: 7;
+   grid-column: 1/span 6; 
+}
+
+.grid-item-testimonials {
+   grid-row: 8;
+   grid-column: 1/span 6; 
+}
+
+.grid-item-form {
+   grid-row: 9;
+   grid-column: 1/span 6; 
+}
+
+.grid-item-footer {
+   grid-row: 10;
+   grid-column: 1/span 6; 
+}
+
+/*
+.about {
+width: 1376px;
+height: 589px;
+margin: 120px 32px 0px 32px;
+background-color: aqua; 
+}
+
+.steps {
+width: 1376px;
+height: 980px;
+margin: 120px 32px 0px 32px;
+background-color: bisque; 
+}
+
+.projects {
+width: 1376px;
+height: 1278px;
+margin: 120px 32px 0px 32px;
+background-color: aqua; 
+
+.testimonials {
+width: 1376px;
+height: 425px;
+margin: 120px 32px 0px 32px;
+background-color: bisque; 
+}
+
+.form {
+width: 1376px;
+ height: 566px;
+ margin: 120px 32px 0px 32px;
+background-color: aqua; 
+}
+
+.footer {
+/*width: 1376px;
+height: 46px;
+margin: 120px 32px 0px 32px;
+background-color: bisque; 
+}
+*/
+nav {
+   
+   color: black;
+   font-size: 18px;
+   font-family: "Roboto";
+} 
+nav li {
+   list-style-type: none;
+}  
+nav a {
+    text-decoration: none;
+}
+nav li a:hover, nav li a.current {
+   color: #aeaca8;
+}
+h1 {
+   font-size: 72px;
+   font-family:  Helvetica;
+   text-transform: uppercase;
+   font-weight: lighter;
+}
+p {
+   font-size: 18px;
+   font-family: "Roboto";
+   }
+ 
+a {
+   
+      font-size: 18px;
+      font-family: "Roboto";
+      color: black;
+      
+}
+
+.img1 {
+   align-items: right;
+}
